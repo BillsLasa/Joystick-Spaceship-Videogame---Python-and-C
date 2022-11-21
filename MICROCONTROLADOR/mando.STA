@@ -1,0 +1,83 @@
+
+ROM used:   1462/8192 (18%)
+            1462/8192 (18%) including unused fragments
+
+            1.0 Average locations per line
+            4.8 Average locations per statement
+
+RAM used:   32/368 (9%) at main() level
+            46/368 (12%) worst case
+
+Stack used: 6 worst case (5 in main + 1 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  336   202  67  mando.c
+   11     0   0  mando.h
+  671     0   0  C:\Program Files (x86)\PICC\Devices\16F877A.h
+  456   100  33  lcd.c
+----- -----
+ 1474   302 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     21   1    1             @delay_ms1
+ Inline         3   760  4.5  lcd_read_byte
+0     49   3    2   262  3.7  lcd_read_nibble
+0     43   3    1   399  2.4  lcd_send_nibble
+0     92   6    3   415  3.7  lcd_send_byte
+0     70   5    6   852  6.2  lcd_init
+0     18   1    4   208  6.3  lcd_gotoxy
+0     44   3    1   354  4.7  lcd_putc
+0     20   1    0   202  4.0  moverTitulo
+0     46   3    4   639  3.4  botones
+0    759  52    4  6515 10.4  MAIN
+0      1   0    0             @const678
+0     86   6    4             @PSTRINGC7_647
+0      9   1    0             @const680
+0      9   1    0             @const681
+0      9   1    0             @const682
+0      9   1    0             @const683
+0      9   1    0             @const684
+0      9   1    0             @const685
+0      5   0    0             @const686
+0      5   0    0             @const687
+0      5   0    0             @const688
+0      5   0    0             @const689
+0      5   0    0             @const690
+0      5   0    0             @const691
+0      5   0    0             @const692
+0      4   0    0             @const693
+0      4   0    0             @const694
+0      4   0    0             @const695
+0      4   0    0             @const696
+0      4   0    0             @const697
+0      4   0    0             @const698
+0      4   0    0             @const699
+0     10   1    0             @goto11034
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               10
+    Statements              302
+    Comments                328
+    Volume (V)              14392
+    Difficulty (D)          47.0
+    Effort to implement (E) 676823
+    Time to implement (T)   10 hours, 27 minutes
+    Est Delivered Bugs (B)  3
+    Cyclomatic Complexity   52
+    Maintainability (MI)    103
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-00055    82  0  
+00056-007FF  1376  586  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+
