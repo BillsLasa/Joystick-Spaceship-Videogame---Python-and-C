@@ -23,6 +23,8 @@ This repository stores a basic spaceship video game programmed in Python languag
 
 * **[videogame.py]**: This file contains the code in Python language that conforms the spaceship videogame as well as the communication parameters with the PIC microcontroller connected to the USB of the computer where it is running.
 
+## Screenshots 📷
+![image](https://user-images.githubusercontent.com/118120048/203212180-59966f94-339c-4292-8e6a-c7013863c891.png)
 
 ## Hiring 🤝🏿
 
