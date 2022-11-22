@@ -30,6 +30,7 @@ This repository stores a basic spaceship video game programmed in Python languag
 ## Screenshots 📷
 ![image](https://user-images.githubusercontent.com/118120048/203212180-59966f94-339c-4292-8e6a-c7013863c891.png)
 
+
 ## Hiring 🤝🏿
 
 If you wish to hire me, please contact me at the following e-mail address: luislasabills@gmail.com
