@@ -1,23 +1,28 @@
 # Joystick Spaceship Videogame - Python and C 🚀
-A graphical user interface that displays the current position of a mechanism that emulates a spider's leg based on the angle of the joints. 
+This repository stores a basic spaceship video game programmed in Python language that can be controlled by an electronic Joystick built with the PIC microcontroller PIC16F877 programmed in C language.
 
 ## Author 👤
 **Luis Ángel Sánchez Aguilar**
 
 * [LinkedIn](https://www.linkedin.com/in/sanchezluismachinelearning/)
 
-## Main Files description 📘
-
-* **[spiderbotCodigo.m]**: This file can be run in Matlab software. The code consists of finding the position of the leg joints of a spider robot in three-dimensional space. It is the most basic file and has no graphical interface.  
-
-* **[spiderbotApp.mlapp]**: This file can be executed in Matlab using App Designer. The file contains both the functional code as well as the graphical user interface. This file consists of finding the position of the leg of a robot spider according to the angle of the joints that can be modified by sliders, making a wireframe sketch.
-
-Note: Both files are independent. You can use one or the other depending on whether you want a graphical interface or not.
-
-
 ## Folders description 📁
 
-* **[imagenes]**: This folder contains all the necessary images that are called by the spiderbotApp.mlapp file
+* **[MICROCONTROLADOR]**: This folder contains the code in C language and the necessary libraries for the logic and communication of the joystick implemented with a PIC C microcontroller.
+
+* **[VIDEOJUEGO]**: This folder contains the code in python language, the images and audios necessary for the logic and communication of the spaceship videogame.
+
+
+## Main Files description 📘
+
+* **[mando.c]**: This file contains the C language code of the PIC16877A microcontroller. It contains the logic and the communication parameters to connect to the spaceship videogame. It is necessary to clarify that it is thought for a Joystick connected by USB to a computer.
+
+* **[mando.hex]**: This file contains the C language code of "mando.c" translated to "machine" language for uploading directly to the microcontroller.
+
+* **[lcd.c]**: This file is the library used to control and manage an LCD display that is part of the Joystick.
+
+* **[videogame.py]**: This file contains the code in Python language that conforms the spaceship videogame as well as the communication parameters with the PIC microcontroller connected to the USB of the computer where it is running.
+
 
 ## Hiring 🤝🏿
 
